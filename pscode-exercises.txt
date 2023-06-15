@@ -33,13 +33,10 @@ a)
 	2. WRITE "Please enter 5 numbers"
 	3. READ num1,num2,num3,num4,num5
 
-	4. WRITE "The average is"
-		avg= (num1+num2+num3+num4+num5)
-	   WRITE avg
-	   END
+	   
 
 b)
-	5. If(num1 < num2)
+	4. If(num1 < num2)
 		Set max to num2
 	   Else
 		Set max to num1
@@ -49,9 +46,6 @@ b)
 		Set max to num4
 	   If(num5 > max)
 		Set max to num5
-	   WRITE "the max is"
-	   WRITE max
-	   END 
 
 c)
 	6. If(num1 > num2)
@@ -64,8 +58,18 @@ c)
 		Set min to num4
 	   If(num5 < min)
 		Set min to num5
+	  
+d)	7. WRITE "The average is"
+		avg= (num1+num2+num3+num4+num5)
+	   
+	   WRITE avg
+
+	   WRITE "the max is"
+	   WRITE max
+
 	   WRITE "The min is"
 	   WRITE min
+
 	   END
 	
 
